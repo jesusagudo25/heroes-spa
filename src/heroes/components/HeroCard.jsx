@@ -10,6 +10,7 @@ const CharactersByHero = ({ alter_ego, characters }) => {
     return ( alter_ego !== characters )
         ? <p className="card-text">{characters}</p>
         : <></>;
+        
 }
 
 
@@ -48,7 +49,7 @@ export const HeroCard = ({ hero }) => {
                                 <small className="text-muted">{first_appearance}</small>
                             </p>
 
-                            <Link to={`./hero/${id}`}>
+                            <Link to={`/hero/${id}`}>
                                 Más...
                             </Link>
                         </div>
