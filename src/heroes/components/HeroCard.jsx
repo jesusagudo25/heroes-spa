@@ -21,13 +21,13 @@ CharactersByHero.propTypes = {
 
 export const HeroCard = ({ hero }) => {
 
-    const { id, superhero, alter_ego, characters, first_appearance, publisher } = hero;
+    const { id, superhero, alter_ego, characters, first_appearance } = hero;
     const imgPath = `./assets/imgs/heroes/${id}.jpg`;
 
     //const charactersByHero = (<p className="card-text">{characters}</p>);
 
     return (
-        <div key={id} className="col">
+        <div key={id} className="col  animate__animated animate__fadeIn">
             <div className="card ">
                 <div className="row no-gutters">
                     <div className="col-4">
