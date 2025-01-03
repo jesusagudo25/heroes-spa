@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Search /> should display correctly with default values 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form>
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn mt-3 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+        <button
+          class="btn mt-3 btn-block btn-outline-danger"
+          style="margin-left: 10px;"
+          type="reset"
+        >
+          Reset
+        </button>
+      </form>
+    </div>
+    <div
+      aria-label="heroes-col"
+      class="col-7"
+      style="display: block;"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        class="animate__animated animate__fadeIn"
+      >
+        <div
+          class="alert alert-info"
+        >
+          Search a hero...
+        </div>
+      </div>
+      <div
+        class="d-flex gap-2 flex-column"
+      />
+    </div>
+  </div>
+</div>
+`;

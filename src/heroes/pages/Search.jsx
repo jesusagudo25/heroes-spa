@@ -64,18 +64,20 @@ export const Search = () => {
           </form>
         </div>
 
-        <div className="col-7">
+        <div className="col-7" aria-label="heroes-col" style={{ display: 'block' }}>
           <h4>Results</h4>
           <hr />
 
           {
-/*             (q === '') ?
-              <div className="animate__animated animate__fadeIn">
-                <div className="alert alert-info">Search a hero...</div>
-              </div>
-              : (heroesFiltered.length === 0) && <div className="animate__animated animate__fadeIn">
-                <div className="alert alert-danger">Not hero with <b>{q}</b></div>
-              </div> */
+              /*
+                (q === '') ?
+                  <div className="animate__animated animate__fadeIn">
+                    <div className="alert alert-info">Search a hero...</div>
+                  </div>
+                : (heroesFiltered.length === 0) && <div className="animate__animated animate__fadeIn">
+                  <div className="alert alert-danger">Not hero with <b>{q}</b></div>
+                  </div> 
+              */
           }
 
           {
